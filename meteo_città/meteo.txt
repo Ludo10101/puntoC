@@ -1,0 +1,9 @@
+Roma;35;22;Sole
+Milano;30;18;Pioggia
+Napoli;33;21;Nuvoloso
+Torino;28;16;Temporale
+Firenze;32;20;Sole
+Venezia;29;19;Nuvoloso
+Palermo;36;24;Sole
+Genova;27;17;Pioggia
+Bologna;31;21;Sole
