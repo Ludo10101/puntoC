@@ -1,0 +1,20 @@
+Tapis Roulant Professional;cardio;2020;2500.00;8
+Panca Piana Olympic;pesi;2019;800.50;6
+Cyclette Spinning;cardio;2021;1200.00;10
+Bilanciere Olimpico;pesi;2018;150.75;4
+TRX Suspension;funzionale;2022;89.99;3
+Leg Press 45 gradi;pesi;2020;1800.00;5
+Ellittica Premium;cardio;2021;1500.00;7
+Panca Inclinata;pesi;2019;650.00;4
+Kettlebell Set;funzionale;2023;250.00;6
+Rowing Machine;cardio;2020;900.00;12
+Smith Machine;pesi;2018;2200.00;7
+Battle Ropes;funzionale;2022;75.50;2
+Stepper Aerobico;cardio;2021;300.00;8
+Manubri Regolabili;pesi;2020;450.00;9
+Palla Medica;funzionale;2023;35.00;4
+Cross Trainer;cardio;2019;1100.00;6
+Rack Squat;pesi;2018;1500.00;5
+Corda per Saltare;funzionale;2023;15.99;3
+Spin Bike Racing;cardio;2022;1800.00;12
+Cable Machine;pesi;2019;2800.00;8
