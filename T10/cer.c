@@ -40,10 +40,10 @@ int relazioni( struct cerchi a, struct cerchi b){
 		} 
 		else if(distanza <=(a.r-b.r)){
 			return CONTIENE;
-		}else if(distanza >(a.r-b.r)){
-			return CONTENUTO;
-		}else if( distanza > abs((a.r-b.r))){
+		}else if((a.r-b.r) >0){
 			return INTERSECA;
+		}else if( (a.r-b.r)<0){
+			return CONTENUTO;
 		}
 	
 	}
