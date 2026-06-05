@@ -37,17 +37,19 @@ int relazioni( struct cerchi a, struct cerchi b){
 	if(distanza<abs(a.r+b.r)){
 		if(distanza==0&&a.r==b.r){
 			return COINCIDE;	
-		} 
-		else if(distanza <=(a.r-b.r)){
-			return CONTIENE;
-		}else if((a.r-b.r) >0){
-			return INTERSECA;
-		}else if( (a.r-b.r)<0){
-			return CONTENUTO;
-		}
-	
-	}
-	printf("ciao\n");
+	 }
+  else if(distanza >abs(a.r-b.r)){
+   return INTERSECA;
+   }
+		else if(distanza <=abs(a.r-b.r)){
+			if(a.r>b.r){
+    return CONTIENE;
+   }
+   if(a.r<=b.r){
+    return CONTENUTO;
+   }
+  }  
+ }
 	return NESSUNA;
 }
 void rel(struct cerchi * letti, int n){
