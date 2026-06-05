@@ -31,10 +31,10 @@ int relazioni( struct cerchi a, struct cerchi b){
 	float distanza;
 	distanza=dist(a,b);
 
-	if(distanza>=(a.r+b.r)){
+	if(distanza>=abs(a.r+b.r)){
 		return NESSUNA;	
 	} 
-	if(distanza<(a.r+b.r)){
+	if(distanza<abs(a.r+b.r)){
 		if(distanza==0&&a.r==b.r){
 			return COINCIDE;	
 		} 
